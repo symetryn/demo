@@ -1,0 +1,30 @@
+.primary-button {
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: lightcoral;
+}
+
+.primary-button--large {
+  font-size: 16px;
+  padding: 12px 12px;
+  font-weight: bold;
+}
+.primary-button--md {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .primary-button {
+    border-radius: 2px;
+    padding: 7px 17px;
+  }
+  .primary-button--large {
+    font-size: 26px;
+  }
+}

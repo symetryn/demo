@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+body {
+  background-color: #333;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+h3 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0.3) 60%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("./assets/background.jpg");
+  background-size: cover;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  margin-top: -70px;
+}
+.header__content {
+  width: 100%;
+  max-width: 700px;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 20px 10px 0px;
+}
+
+.nav__logo {
+  height: 45px;
+  width: 167px;
+  z-index: 1;
+}
+
+.nav__logo img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.signin__form {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 80px;
+}
+
+.form__field {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.signin__input {
+  border-radius: 4px;
+
+  color: #fff;
+  background-color: #333;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px;
+}
+.signin__check {
+  display: inline-flex;
+  color: white;
+  font-size: 0.8rem;
+}
+@media only screen and (min-width: 768px) {
+  .signin__form {
+    padding: 3rem;
+    height: 60vh;
+
+    max-width: 450px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+body {
+  background-color: #333;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+h3 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0.3) 60%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("./assets/background.jpg");
+  background-size: cover;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  margin-top: -70px;
+}
+.header__content {
+  width: 100%;
+  max-width: 700px;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 20px 10px 0px;
+}
+
+.nav__logo {
+  height: 45px;
+  width: 167px;
+  z-index: 1;
+}
+
+.nav__logo img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.signin__form {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 90px 1rem 1rem;
+}
+
+.form__field {
+  width: 100%;
+  margin: 1rem 0;
+}
+.signin__input {
+  border-radius: 4px;
+  background-color: #333;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px;
+}
+.signin__check {
+  display: inline-flex;
+  margin-bottom: 4rem;
+  font-size: 0.8rem;
+}
+.signin__link {
+  color: grey;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-left: auto;
+}
+.signin__link--white {
+  color: white;
+}
+
+.signin__form p {
+  color: grey;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+@media only screen and (min-width: 768px) {
+  .signin__form {
+    padding: 3rem;
+    height: fit-content;
+
+    max-width: 450px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  nav {
+    padding: 20px 3.5rem 0px;
+  }
+}

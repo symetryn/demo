@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="signin.css" />
+    <link rel="stylesheet" href="buttons.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="/"><img src="./assets/logo.png" alt="netflix logo" /></a>
+      </div>
+    </nav>
+    <header>
+      <form class="signin__form">
+        <h1>Sign In</h1>
+        <input
+          type="text"
+          class="signin__input form__field"
+          placeholder="Email or phone number"
+        />
+        <input
+          type="password"
+          class="signin__input form__field"
+          placeholder="Password"
+        />
+        <button class="primary-button primary-button--md form__field">
+          Sign In
+        </button>
+        <div class="form__field signin__check">
+          <span>
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">Remember me</label></span
+          >
+          <a class="signin__link" href="/">Need Help?</a>
+        </div>
+        <p>
+          New to Netflix?
+          <a href="/" class="signin__link--white">Sign up now.</a>
+        </p>
+        <p>
+          This page is protected by Google reCAPTCHA to ensure you're not a bot.
+          <a class="signin__link--white" href="/">Learn more</a>
+        </p>
+      </form>
+    </header>
+  </body>
+</html>
